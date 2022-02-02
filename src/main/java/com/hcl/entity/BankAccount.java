@@ -74,7 +74,8 @@ public class BankAccount {
 			String[] firstLast = name.split(" ");
 
 			if ((firstLast[0].length() < 8 || firstLast[0].length() > 12)
-					|| (firstLast[1].length() < 8 || firstLast[1].length() > 12)) {
+					|| (firstLast[1].length() < 8 || firstLast[1].length() > 12)
+					|| firstLast.length > 2) {
 
 				throw new InvalidNameLengthException();
 			} else {
