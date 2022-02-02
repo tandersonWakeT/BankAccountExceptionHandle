@@ -35,7 +35,7 @@ public class BankAccountCLI {
     	   tempId = kb.nextInt();
     	   kb.nextLine();
     	   
-    	   System.out.println("Enter Account Name: ");
+    	   System.out.println("Enter Account Name (First and Last, 8-12 Characters Each): ");
     	   tempName = kb.nextLine();
     	   
     	   System.out.println("Enter Account Starting Balance: ");
